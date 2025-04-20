@@ -1,0 +1,6 @@
+vacation-calculator:
+  holiday-api:
+    url: https://holidayapi.com/v1/holidays
+    api-key: ${HOLIDAY_API_KEY:189c560d-b974-46a7-825d-8337b586ebd3}
+  pay:
+    day-divisor: 29.3
